@@ -189,8 +189,7 @@ class _EmptyListWidgetState extends State<EmptyWidget> with TickerProviderStateM
                   turns: _backgroundController,
                 ),
               LayoutBuilder(builder: (BuildContext context, BoxConstraints constraints) {
-                print(constraints.toString());
-                return Container(
+                 return Container(
                   height: constraints.maxWidth,
                   width: constraints.maxWidth - 30,
                   alignment: Alignment.center,
