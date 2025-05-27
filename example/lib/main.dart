@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           /// Image from package assets
           /// Uncomment below line to use package assets
-          packageImage: PackageImage.Image_1,
+          packageImage: PackageImage.image_1,
           title: 'No Notification',
           subTitle: 'No  notification available yet',
           titleTextStyle: TextStyle(
